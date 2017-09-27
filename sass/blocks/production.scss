@@ -6,7 +6,7 @@
 .production__title {
   font-size: 17px;
   font-weight: 700;
-  color: #000;
+  color: #000000;
   padding: 30px;
   padding-left: 90px;
   margin: 0;
@@ -21,7 +21,7 @@
     left: 30px;
     width: 32px;
     height: 32px;
-    background-image: url(../img/icon-video.svg);
+    background-image: url("../img/icon-video.svg");
     background-repeat: no-repeat;
   }
 }
@@ -44,7 +44,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   cursor: pointer;
   background-color: transparent;
 }
