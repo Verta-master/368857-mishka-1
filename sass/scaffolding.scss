@@ -1,0 +1,22 @@
+body {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button {
+  font-family: "Open Sans", "Arial", sans-serif;
+  border: none;
+}
+
+* {
+  box-sizing: border-box;
+}

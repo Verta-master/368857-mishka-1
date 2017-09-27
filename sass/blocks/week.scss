@@ -1,0 +1,33 @@
+.week {
+  padding: 0 30px;
+}
+
+.week__comment {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+  color: $green;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.week__table {
+  width: 100%;
+  margin-bottom: 30px;
+  border-collapse: collapse;
+
+  tr {
+    border-bottom: 1px solid #ececec;
+    height: 40px;
+  }
+
+  td:first-child {
+    width: 98px;
+  }
+}
+
+.week__price {
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+}

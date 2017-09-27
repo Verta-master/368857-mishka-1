@@ -1,0 +1,55 @@
+.production {
+  padding: 0 30px;
+  margin-bottom: 60px;
+}
+
+.production__title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000000;
+  padding: 30px;
+  padding-left: 90px;
+  margin: 0;
+  border: 1px solid #ededed;
+  border-bottom: none;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    width: 32px;
+    height: 32px;
+    background-image: url("../img/icon-video.svg");
+    background-repeat: no-repeat;
+  }
+}
+
+.production__wrap {
+  padding: 32px;
+  border: 1px solid #ededed;
+  border-top: none;
+}
+
+.production__img {
+  display: block;
+}
+
+.production__video {
+  position: relative;
+}
+
+.production__btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.production__text {
+  margin-top: 0;
+  margin-bottom: 30px;
+}

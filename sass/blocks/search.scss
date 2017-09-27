@@ -1,0 +1,28 @@
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search__btn {
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search__input {
+  margin-left: 30px;
+  font-size: 17px;
+  font-weight: 700;
+  min-height: 80px;
+
+  &::placeholder {
+    opacity: 1;
+  }
+}
