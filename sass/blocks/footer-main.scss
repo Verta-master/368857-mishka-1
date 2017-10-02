@@ -2,3 +2,20 @@
   padding: 0 30px;
   background-color: $grey-bg;
 }
+
+.footer-main__logo {
+  display: none;
+}
+
+@media (min-width: $tablet) {
+  .footer-main__logo {
+    display: block;
+  }
+
+  .footer-main {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

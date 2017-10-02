@@ -77,3 +77,64 @@
     background-image: url("../img/icon-menu-open.svg");
   }
 }
+
+@media (min-width: $tablet) {
+  .menu {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu__btn {
+    display: none;
+  }
+
+  .menu--closed .menu__list {
+    display: flex;
+    width: auto;
+
+    &--left {
+      background-color: transparent;
+      padding-left: 50px;
+      padding-right: 0;
+    }
+
+    &--left .menu__link {
+      padding-left: 0;
+      margin-right: 35px;
+      font-size: 15px;
+    }
+
+    &--right {
+      position: static;
+      padding-right: 50px;
+      padding-left: 0;
+    }
+  }
+
+  .menu__item {
+    border-bottom: none;
+    padding: 0;
+  }
+
+  .menu__img {
+    border-bottom: none;
+    padding: 0 50px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .menu--closed .menu__list {
+    &--left {
+      order: 1;
+      position: static;
+    }
+
+    &--right {
+      order: 3;
+    }
+  }
+
+  .menu__img {
+    order: 2;
+  }
+}

@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
+  <meta  name="viewport" content="width=device-width,initial-scale=1">
   <title>HTML Academy: Мишка</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -44,6 +45,17 @@
 
   <main class="wrapper">
     <section class="promo promo--main">
+      <div class="promo__menu">
+        <ul class="promo__list">
+          <li class="promo__item">
+            <a href="#">Новые поступления</a>
+          </li>
+          <li class="promo__item">
+            <a href="#">Распродажа</a>
+          </li>
+        </ul>
+        <span class="promo__comment">Бесплатная доставка по России</span>
+      </div>
       <h1 class="title-h1">Милые штуки ручной<br>работы для дома</h1>
       <div class="promo__block">
         <a href="#" class="promo__link promo__link--interior">Предметы интерьера</a>
@@ -52,26 +64,30 @@
     </section>
 
     <section class="week">
-      <h2 class="title-h2">Вязаные корзинки</h2>
-      <p class="week__comment">ТОВАР НЕДЕЛИ</p>
-      <p class="week__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
-      <table class="week__table">
-        <tr>
-          <td>Цвет:</td>
-          <td>«Тиффани»/серый</td>
-        </tr>
-        <tr>
-          <td>Диаметр:</td>
-          <td>25 см</td>
-        </tr>
-        <tr>
-          <td>Высота:</td>
-          <td>15 см</td>
-        </tr>
-      </table>
-      <img src="img/triple-set-mobile@1x.jpg" alt="" class="week__img" width="260" height="315">
-      <p class="week__price">Цена: 990 руб.</p>
-      <a href="#" class="btn">ЗАКАЗАТЬ</a>
+      <div class="week__wrap">
+        <h2 class="title-h2">Вязаные корзинки</h2>
+        <p class="week__comment">ТОВАР НЕДЕЛИ</p>
+      </div>
+      <div class="week__content">
+        <p class="week__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+        <table class="week__table">
+          <tr>
+            <td>Цвет:</td>
+            <td>«Тиффани»/серый</td>
+          </tr>
+          <tr>
+            <td>Диаметр:</td>
+            <td>25 см</td>
+          </tr>
+          <tr>
+            <td>Высота:</td>
+            <td>15 см</td>
+          </tr>
+        </table>
+        <img src="img/triple-set-mobile@1x.jpg" alt="Вязаные корзинки" class="week__img" width="260" height="315">
+        <p class="week__price">Цена: 990 руб.</p>
+        <a href="#" class="btn week__btn">ЗАКАЗАТЬ</a>
+      </div>
     </section>
 
     <section class="about">
@@ -93,21 +109,23 @@
         <p class="review__author">Анастасия Красильникова</p>
         <span class="review__nickname">@misssssiskras</span>
       </div>
-      <a href="#" class="btn">Написать</a>
+      <a href="#" class="btn review__btn">Написать</a>
     </section>
 
     <section class="contacts">
-      <h3 class="title-h3 contacts__title">Контакты</h3>
-      <table class="contacts__table">
-        <tr>
-          <td>e-mail:</td>
-          <td><a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a></td>
-        </tr>
-        <tr>
-          <td>адрес:</td>
-          <td>г. Санкт-Петербург, ул.&nbsp;Большая Конюшенная, д.&nbsp;19/8, офис 101</td>
-        </tr>
-      </table>
+      <div class="contacts__wrap">
+        <h3 class="title-h3 contacts__title">Контакты</h3>
+        <div class="contacts__table">
+        <p class="contacts__line">
+          <span>e-mail:</span>
+          <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+        </p>
+        <p class="contacts__line">
+          <span>адрес:</span>
+          <span>г. Санкт-Петербург, ул.&nbsp;Большая Конюшенная, д.&nbsp;19/8, офис 101</span>
+        </p>
+      </div>
+      </div>
       <div class="contacts__map">
 
       </div>
@@ -116,6 +134,7 @@
   </main>
 
   <footer class="footer-main wrapper">
+    <img src="img/logo-mobile.svg" alt="Logo" class="footer-main__logo" width="86" height="36">
     <div class="social">
       <a href="#" class="social__link">
         <span class="visually-hidden">Инстаграм</span>

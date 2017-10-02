@@ -26,3 +26,20 @@
     opacity: 1;
   }
 }
+
+@media (min-width: $tablet) {
+  .search__input {
+    display: none;
+  }
+
+  .search__btn {
+    width: 80px;
+    height: 80px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid rgba(68, 68, 68, 0.1);
+    border-right: 1px solid rgba(68, 68, 68, 0.1);
+  }
+}
