@@ -15,3 +15,9 @@
     margin-right: 0;
   }
 }
+
+@media (min-width: $tablet) {
+  .social {
+    border-bottom: none;
+  }
+}

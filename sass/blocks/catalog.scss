@@ -51,3 +51,74 @@
 .catalog__item {
   margin-bottom: 30px;
 }
+
+@media (min-width: $tablet) {
+  .catalog {
+    padding: 0 50px;
+  }
+
+  .catalog__item {
+    display: flex;
+    min-height: 334px;
+    margin-bottom: 55px;
+  }
+
+  .catalog__img {
+    width: 334px;
+    height: auto;
+  }
+
+  .catalog__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 334px;
+    width: 334px;
+  }
+
+  .catalog__order {
+    margin-top: auto;
+  }
+
+  .catalog__name {
+    font-size: 20px;
+  }
+
+  .catalog__description {
+    font-size: 15px;
+  }
+
+  .catalog__price {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: stretch;
+  }
+
+  .catalog__img {
+    width: 316px;
+    height: auto;
+  }
+
+  .catalog__item {
+    flex-direction: column;
+    margin-right: 50px;
+    min-height: 660px;
+
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+
+  .catalog__card {
+    width: 316px;
+    flex-grow: 1;
+  }
+}

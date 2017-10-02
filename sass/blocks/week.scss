@@ -31,3 +31,94 @@
   font-weight: 700;
   text-align: center;
 }
+
+@media (min-width: $tablet) {
+  .week {
+    padding: 0 50px;
+    margin-bottom: 50px;
+  }
+
+  .week__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 55px;
+  }
+
+  .week__comment {
+    margin-bottom: 0;
+    padding-right: 10px;
+    max-width: 90px;
+    text-align: center;
+  }
+
+  .week__description {
+    font-size: 17px;
+    width: 50%;
+    order: 1;
+  }
+
+  .week__table {
+    width: 291px;
+    order: 2;
+  }
+
+  .week__price {
+    width: 50%;
+    order: 3;
+  }
+
+  .week__btn {
+    order: 4;
+  }
+
+  .week__img {
+    width: 333px;
+    height: auto;
+    order: 5;
+  }
+
+  .week__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-height: 460px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .week {
+    background-image: url("../img/triple-set-mobile@1x.jpg");
+    background-repeat: no-repeat;
+    background-position: right 50px center;
+    background-size: 525px auto;
+  }
+
+  .week__wrap {
+    position: relative;
+    justify-content: flex-start;
+
+    .title-h2 {
+      order: 2;
+    }
+  }
+
+  .week__comment {
+    order: 1;
+    max-width: 175px;
+    padding: 0 30px;
+  }
+
+  .week__img {
+    display: none;
+  }
+
+  .week__description {
+    max-width: 300px;
+  }
+
+  .week__price {
+    width: 300px;
+  }
+}

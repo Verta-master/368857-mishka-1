@@ -11,3 +11,9 @@
   border: 1px solid #000000;
   background-color: transparent;
 }
+
+@media (min-width: $tablet) {
+  .btn {
+    width: 300px;
+  }
+}
