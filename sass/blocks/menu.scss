@@ -123,6 +123,12 @@
 }
 
 @media (min-width: $desktop) {
+  .menu {
+    width: $desktop;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .menu--closed .menu__list {
     &--left {
       order: 1;

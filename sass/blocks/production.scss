@@ -87,6 +87,9 @@
   .production {
     flex-direction: row;
     position: relative;
+    width: $desktop;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .production__title {

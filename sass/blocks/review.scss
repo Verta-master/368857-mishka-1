@@ -47,6 +47,9 @@
 @media (min-width: $desktop) {
   .review {
     padding-left: 225px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    width: $desktop;
   }
 
   .review__text {
