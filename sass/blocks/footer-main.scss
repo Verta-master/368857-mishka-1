@@ -14,8 +14,20 @@
 
   .footer-main {
     padding: 20px 50px;
+  }
+
+  .footer-main__wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+@media (min-width: $desktop) {
+  .footer-main__wrap {
+    width: $desktop;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 50px;
   }
 }

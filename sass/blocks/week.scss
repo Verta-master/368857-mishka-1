@@ -89,6 +89,9 @@
 
 @media (min-width: $desktop) {
   .week {
+    width: $desktop;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url("../img/triple-set-mobile@1x.jpg");
     background-repeat: no-repeat;
     background-position: right 50px center;

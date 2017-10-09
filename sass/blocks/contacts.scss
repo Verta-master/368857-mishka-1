@@ -64,7 +64,11 @@
 @media (min-width: $desktop) {
   .contacts {
     padding-left: 175px;
+    padding-bottom: 100px;
     position: relative;
+    width: $desktop;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .contacts__map {
@@ -82,6 +86,7 @@
 
   .contacts__table {
     display: block;
+    margin-top: 50px;
 
     span:nth-child(2) {
       padding-right: 50px;
